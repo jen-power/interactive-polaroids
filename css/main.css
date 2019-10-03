@@ -15,6 +15,7 @@ html {
 
   position: relative;
   transform: rotate(-15deg);
+  transition: all 250ms linear;
 }
 
 .polaroid > img {
