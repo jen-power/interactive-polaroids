@@ -34,4 +34,23 @@ html {
 
 .polaroid:hover {
   transform: rotate(0deg);
+  z-index: 4;
+}
+
+figure:nth-child(1) {
+  transform:rotate(-10deg);
+  left: 20%;
+  top: 10%;
+}
+
+figure:nth-child(2) {
+  transform:rotate(5deg);
+  left: 30%;
+  top: 20%;
+}
+
+figure:nth-child(3) {
+  transform:rotate(30deg);
+  left: 40%;
+  top: 15%;
 }
