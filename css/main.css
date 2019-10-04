@@ -38,19 +38,20 @@ html {
 }
 
 figure:nth-child(1) {
-  transform:rotate(-10deg);
+  transform: rotate(-10deg);
   left: 20%;
-  top: 10%;
+  top: 1.5%;
 }
 
 figure:nth-child(2) {
-  transform:rotate(5deg);
+  transform: rotate(5deg);
   left: 30%;
-  top: 20%;
+  top: 4%;
+  z-index: 5;
 }
 
 figure:nth-child(3) {
-  transform:rotate(30deg);
+  transform: rotate(30deg);
   left: 40%;
-  top: 15%;
+  top: 3%;
 }
